@@ -1,0 +1,368 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#navbar {
+    margin-top: 10px;
+}
+
+.container1 {
+    width: 80%;
+    margin: auto;
+}
+
+.navbarinside {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbarmenu {
+    margin-left: 20px;
+}
+
+.navbarmenu li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.navbarmenu a {
+    font-size: 15px;
+    color: #000;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.firsta {
+    color: blue !important;
+}
+
+.navbarmenu a:hover {
+    color: blue;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.relaxed {
+    margin-left: 37%;
+}
+
+.relaxed li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.relaxed i {
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.relaxed i:hover {
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+#womenabout {
+    background-color: #fff;
+    width: 95%;
+    height: 400px;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 1;
+}
+
+#womenabout a {
+    color: grey;
+    transition: all 0.3s ease-in-out;
+    font-size: 14px
+}
+
+#womenabout a:hover {
+    color: blue;
+    transition: all 0.3s ease-in-out;
+}
+
+.womandirsta {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+.product-item img {
+    width: 134px;
+    height: 168px;
+}
+
+#slider {
+    width: 465px;
+    margin: 0px, auto;
+    overflow: hidden;
+}
+
+#slider>.container {
+    width: 800px;
+    display: flex;
+    transform: translateX(0px);
+    transition: transform 0.5s ease;
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+.container h3 {
+    font-size: 14px;
+}
+
+.container span {
+    font-size: 14px;
+}
+
+#left {
+    margin-left: 60%;
+}
+
+.reklamimg1 img {
+    width: 532.6px;
+    height: 118.35px;
+}
+
+.reklamimg2 img {
+    width: 532.6px;
+    height: 118.35px;
+}
+
+.reklamimg1 {
+    position: relative;
+}
+
+.reklam1 {
+    position: absolute;
+    bottom: 5%;
+    left: 10%;
+}
+
+.reklam1 p {
+    font-size: 20px;
+}
+
+.reklamimg2 {
+    position: relative;
+}
+
+.reklamimg2 p {
+    color: #fff;
+}
+
+#menabout img {
+    width: 260px;
+    height: 140px;
+    margin-right: 15px;
+}
+
+.menjpg img {
+    width: 256.3px !important;
+    height: 338.81px !important;
+}
+
+.TopsM a {
+    color: grey;
+    font-size: 14px;
+}
+
+.BottomsM a {
+    color: grey;
+    font-size: 14px;
+
+}
+
+.accesoriesM a {
+    color: grey;
+    font-size: 14px;
+
+}
+
+.manaboutfirstchild {
+    color: #000 !important;
+    font-weight: bold;
+}
+
+#menabout a:hover {
+    transition: all 0.3s ease-in-out;
+}
+
+.TopsM a:hover {
+    color: blue;
+}
+
+.BottomsM a:hover {
+    color: blue;
+}
+
+.accesoriesM a:hover {
+    color: blue;
+}
+
+.manaboutfirstchild:hover {
+    color: blue !important;
+}
+
+#menabout a {
+    transition: all 0.3s ease-in-out;
+
+}
+
+.menjpg {
+    position: relative;
+}
+
+.menslogan {
+    position: absolute;
+    bottom: 140px;
+    left: 20px;
+}
+
+.menslogan h5 {
+    color: #fff;
+}
+
+.menslogan h3 {
+    color: #fff;
+}
+
+.menslogan p {
+    font-size: 14px;
+    text-align: center;
+    margin-right: 87px;
+    color: #fff;
+}
+
+.menslogan a {
+    color: #fff;
+}
+
+.menslogan a:hover {
+    color: #fff;
+}
+
+#menabout {
+    z-index: 100;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(-400px);
+}
+
+#searchpanel {
+    width: 100%;
+    height: 240px;
+    background-color: #fff;
+    position: absolute;
+    top: -100%;
+    z-index: 100000000000000000000000000000000000;
+}
+
+.exit {
+    text-align: end;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.searchofall {
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.searchh6 h6 {
+    font-size: 14px;
+    color: #8B8B8B;
+}
+
+.searchoficon {
+    font-size: 20px;
+}
+
+.sticksearch {
+    width: 100%;
+    height: 2px;
+    background-color: #BEC0C4;
+    display: inline-block;
+}
+#searching{
+    position: relative;
+}
+#b{
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: -1px;
+    font-size: 14px;
+    line-height: 1;
+    padding: 5px 0px 5px 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+
+}
+#a{
+       font-size: 30px;
+    line-height: 1;
+    font-family: 'wokiee_icons';
+    position: absolute;
+    cursor: pointer;
+    top: 41px;
+    padding: 4px 0 4px 4px;
+    margin-top: -11px;
+    right: 0px;
+    z-index: 3;
+    display: inline-block;
+    background: none;
+    border: none;
+
+}
+
+#searching input{
+    background: transparent;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+    border-bottom: 1px solid #eceaea;
+    padding: 11px 12px 10px 0px;
+    font-family: 'Hind', sans-serif;
+    box-shadow: none;
+    outline: none;
+    width: 90%;
+    color: #191919;
+    margin-top: 28px;
+    border-radius: 0;
+    text-transform: uppercase;
+}
+#searching p{
+color: #757575;
+}
+#searching{
+    position: relative;
+    display: none;
+}
+.ptagsearching{
+    position: absolute;
+}
+#container{
+    width: 85%;
+    margin: auto;
+    
+}
